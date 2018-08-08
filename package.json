@@ -1,0 +1,25 @@
+{
+  "name": "lkbk-proto",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "d3": "^4.13.0",
+    "d3-react": "^1.0.4",
+    "font-awesome": "^4.7.0",
+    "jquery": "^3.3.1",
+    "react": "^16.2.0",
+    "react-d3": "^0.4.0",
+    "react-dom": "^16.2.0",
+    "react-faux-dom": "^4.1.0",
+    "react-polygon": "^0.1.0",
+    "react-scripts": "1.1.1",
+    "react-slick": "^0.18.1",
+    "slick-carousel": "^1.8.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}

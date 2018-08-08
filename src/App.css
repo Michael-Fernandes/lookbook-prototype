@@ -1,0 +1,105 @@
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";
+
+body{
+  padding:0;
+  overflow:hidden;
+}
+
+body, .header-nav{
+  margin:0;
+}
+
+.header {
+  border-bottom: 0.5px solid lightgray 0.5;
+  box-shadow: 0 1px 2.5px grey;
+  padding: 10px;
+  width: 100%;
+  z-index:99;
+}
+
+.header-nav{
+  padding:10;
+  list-style: none;
+}
+
+.nav-item{
+  font-weight: 400;
+  color: black;
+  padding: 7.5px;
+  float:left;
+}
+
+.header-tools{
+  color:black;
+  float: right;
+  padding-right: 10px;
+}
+
+.header-phone{
+  padding:7.5px;
+}
+
+.header-fix{
+  clear: right;
+}
+
+/* Lookbook */
+.lookbook{
+  height: 85vh;
+  width: 100%;
+  min-width:100%;
+}
+
+.wardrobe{
+  height: 100%;  
+  margin: 40px;  
+  width: auto;
+}
+
+.slider { 
+  margin:auto; 
+  padding: 40px; 
+  width: 80%; 
+  color: #333; 
+}
+
+.slide{
+  text-align: center;
+  width: 100%;
+
+}
+
+.slick-prev:before, .slick-next:before{
+  color: grey;
+}
+button.slick-arrow.slick-prev {
+  color: black;
+}
+
+
+/* slides */
+.slide{
+  margin-left: auto;
+  margin-right:auto;
+}
+
+#svg-parent{
+  border: 2px solid grey;
+  width: 600px;
+  height: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.d3-img {
+  width: 500px;
+  max-width: 40%;
+  height: auto;
+}
+
+.outfit-wrapper{
+  position: absolute; 
+  left: 50%;
+  transform: translate(-50%, 0);
+}
